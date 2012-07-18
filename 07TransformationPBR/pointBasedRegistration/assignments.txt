@@ -1,0 +1,27 @@
+ Solve the assignments given in
+
+	- doReg.m, lines 29-41. This file implements
+	a PCA-based registration and calls a function 
+	executing the ICP (the latter one is commented). 
+	It also loads and visualizes
+	all data to be registered.
+	Test your implementation of the PCA based reg.
+	
+	- doReg.m: uncomment lines 57-83 and 96-98
+	
+	- IterativeClosestPoint.m. This file implements
+	the ICP algorithm. 
+		- implement a function determining the closest points
+		to a given point within a certain threshold (l. 153)
+		- implement an update of the maximal distance for
+		outlier detection based on a statistical analysis
+		(ll. 86-101)
+		- implement the computation of the motion given two
+		sets of (supposedly) corresponding points (l. 133)
+		[Hint: Umeyama method implement in pointBasedRegistration.m]
+		- apply the motion [R,t] to all points in the
+		source set (l. 148)
+	
+
+
+

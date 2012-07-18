@@ -1,0 +1,1280 @@
+// MDL v1 utf8
+network  {
+  watchlist = ""
+}
+module SoRenderArea {
+  internal  {
+    frame = "461 13 120 56"
+    moduleGroupName = ""
+    windows  {
+      window _viewer {
+        geometry = "821 417 400 251"
+        sizeHint = "400 400"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoRenderArea1
+    renderCaching = AUTO
+    boundingBoxCaching = AUTO
+    renderCulling = AUTO
+    pickCulling = AUTO
+    border = FALSE
+    background = "0 0 0"
+    transparency = BLEND
+    antialiasing = FALSE
+    antialiasingNumPasses = 1
+    useSampleBuffers = FALSE
+    numSamples = 8
+    grabKeyFocus = TRUE
+    snapshotFormat = SNAPSHOT_RGB
+    outputAviFile = ""
+    autoRedrawWhenRecording = TRUE
+    frameRate = 7
+    frameRateAvi = 15
+    status = ready
+    outputSnapshotFile = none
+    outputSnapshotFileWritten = none
+    autoIncreaseFile = TRUE
+    autoUpdateML = FALSE
+    showSnapshotWithShell = FALSE
+    snapCount = 0
+    inputDevicesList = ""
+  }
+}
+module SoDiagram2D {
+  internal  {
+    frame = "461 85 120 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "404 165 479 514"
+        sizeHint = "479 514"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoDiagram2D1
+    minX = 0
+    maxX = 5279
+    minY = 0
+    maxY = 8052
+    scaleX = 1
+    scaleY = 1
+    autoRangeX = TRUE
+    autoRangeY = TRUE
+    axisColor = "1 1 1"
+    axisRotation = AXIS_ROTATION_LEFT_BOTTOM
+    titleFontHeight = 14
+    drawDiagramTitle = FALSE
+    diagramTitleString = ""
+    drawGrid = FALSE
+    gridColor = "0.349999994039536 0.349999994039536 0.349999994039536"
+    drawLegend = FALSE
+    legendPlacement = LEGEND_UPPER_RIGHT
+    legendFontHeight = 12
+    zoomAnimationEase = 0.5
+    zoomAnimationEpsilon = 0.0099999998
+    useZoomRestrictions = FALSE
+    minZoomFactor = 0.1
+    maxZoomFactor = 10
+    drawChildrenExtensions = TRUE
+    forwardEventsToChildrenExtensions = TRUE
+    changeLineOpacityForHighlightedCurves = FALSE
+    curveLineOpacityHighlighted = 1
+    changeLineOpacityForNotHighlightedCurves = FALSE
+    curveLineOpacityNotHighlighted = 0.30000001
+    changeLineStyleForHighlightedCurves = FALSE
+    curveLineStyleHighlighted = 1
+    changeLineStyleForNotHighlightedCurves = FALSE
+    curveLineStyleNotHighlighted = 1
+    curveIndexHighlighted = ""
+    borderH = 39
+    borderV = 25
+    autoBorderH = TRUE
+    autoBorderV = TRUE
+    drawAxisX = TRUE
+    drawAxisY = TRUE
+    drawTicksX = TRUE
+    drawTicksY = TRUE
+    drawLabelsX = TRUE
+    drawLabelsY = TRUE
+    drawAxisTitleX = FALSE
+    drawAxisTitleY = FALSE
+    axisTitleStringX = "X [dn]"
+    axisTitleStringY = "Y [dn]"
+    axisTitleFontHeightX = 12
+    axisTitleFontHeightY = 12
+    axisLabelFontHeightX = 12
+    axisLabelFontHeightY = 12
+    curveColor = "1 1 1"
+    lineStyle = LINE_STYLE_SOLID
+    markerType = MARKER_TYPE_NONE
+    markerSize = 10
+    lineWidth = 1
+    antiAlias = TRUE
+    areaOpacity = 0.5
+    lineOpacity = 1
+    stylePaletteMode = STYLE_PALETTE_INDEX
+  }
+}
+module Histogram {
+  internal  {
+    frame = "489 165 96 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "444 245 398 354"
+        sizeHint = "398 354"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = Histogram1
+    useMask = TRUE
+    xRange = "Image Min/Max"
+    maskMode = Weights
+    curveType = Line
+    curveStyle = 0
+    curveTitle = ""
+    updateMode = AutoUpdate
+    useStepFunction = FALSE
+    useBinSizeOneRepresentation = TRUE
+    useBackgroundValue = FALSE
+    backgroundValue = 0
+    binSize = 1
+  }
+}
+module SoRenderArea {
+  internal  {
+    frame = "313 13 112 56"
+    moduleGroupName = ""
+    windows  {
+      window _viewer {
+        geometry = "817 124 400 262"
+        sizeHint = "400 400"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoRenderArea
+    renderCaching = AUTO
+    boundingBoxCaching = AUTO
+    renderCulling = AUTO
+    pickCulling = AUTO
+    border = FALSE
+    background = "0 0 0"
+    transparency = BLEND
+    antialiasing = FALSE
+    antialiasingNumPasses = 1
+    useSampleBuffers = FALSE
+    numSamples = 8
+    grabKeyFocus = TRUE
+    snapshotFormat = SNAPSHOT_RGB
+    outputAviFile = ""
+    autoRedrawWhenRecording = TRUE
+    frameRate = 7
+    frameRateAvi = 15
+    status = ready
+    outputSnapshotFile = none
+    outputSnapshotFileWritten = none
+    autoIncreaseFile = TRUE
+    autoUpdateML = FALSE
+    showSnapshotWithShell = FALSE
+    snapCount = 0
+    inputDevicesList = ""
+  }
+}
+module SoDiagram2D {
+  internal  {
+    frame = "313 85 112 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "404 165 479 514"
+        sizeHint = "479 514"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoDiagram2D
+    minX = 0
+    maxX = 5279
+    minY = 0
+    maxY = 3573
+    scaleX = 1
+    scaleY = 1
+    autoRangeX = TRUE
+    autoRangeY = TRUE
+    axisColor = "1 1 1"
+    axisRotation = AXIS_ROTATION_LEFT_BOTTOM
+    titleFontHeight = 14
+    drawDiagramTitle = FALSE
+    diagramTitleString = ""
+    drawGrid = FALSE
+    gridColor = "0.349999994039536 0.349999994039536 0.349999994039536"
+    drawLegend = FALSE
+    legendPlacement = LEGEND_UPPER_RIGHT
+    legendFontHeight = 12
+    zoomAnimationEase = 0.5
+    zoomAnimationEpsilon = 0.0099999998
+    useZoomRestrictions = FALSE
+    minZoomFactor = 0.1
+    maxZoomFactor = 10
+    drawChildrenExtensions = TRUE
+    forwardEventsToChildrenExtensions = TRUE
+    changeLineOpacityForHighlightedCurves = FALSE
+    curveLineOpacityHighlighted = 1
+    changeLineOpacityForNotHighlightedCurves = FALSE
+    curveLineOpacityNotHighlighted = 0.30000001
+    changeLineStyleForHighlightedCurves = FALSE
+    curveLineStyleHighlighted = 1
+    changeLineStyleForNotHighlightedCurves = FALSE
+    curveLineStyleNotHighlighted = 1
+    curveIndexHighlighted = ""
+    borderH = 39
+    borderV = 25
+    autoBorderH = TRUE
+    autoBorderV = TRUE
+    drawAxisX = TRUE
+    drawAxisY = TRUE
+    drawTicksX = TRUE
+    drawTicksY = TRUE
+    drawLabelsX = TRUE
+    drawLabelsY = TRUE
+    drawAxisTitleX = FALSE
+    drawAxisTitleY = FALSE
+    axisTitleStringX = "X [dn]"
+    axisTitleStringY = "Y [dn]"
+    axisTitleFontHeightX = 12
+    axisTitleFontHeightY = 12
+    axisLabelFontHeightX = 12
+    axisLabelFontHeightY = 12
+    curveColor = "1 1 1"
+    lineStyle = LINE_STYLE_SOLID
+    markerType = MARKER_TYPE_NONE
+    markerSize = 10
+    lineWidth = 1
+    antiAlias = TRUE
+    areaOpacity = 0.5
+    lineOpacity = 1
+    stylePaletteMode = STYLE_PALETTE_INDEX
+  }
+}
+module Convolution {
+  internal  {
+    frame = "409 269 96 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "483 500 292 179"
+        sizeHint = "292 179"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = Convolution
+    borderHandling = PadSrcClamp
+    fillValue = 0
+    referenceExtentMode = Overlap
+    intervalMinOfFilteredVoxels = 0
+    intervalMaxOfFilteredVoxels = 1024
+    useIntervalOfFilteredVoxels = FALSE
+    externalKernel = ""
+    kernelInfo = "Invalid input, 625 elems, 25x25x1x1x1x1"
+    kernelOutput = "(0,0,0,0,0,0):0.001600
+(1,0,0,0,0,0):0.001600
+(2,0,0,0,0,0):0.001600
+(3,0,0,0,0,0):0.001600
+(4,0,0,0,0,0):0.001600
+(5,0,0,0,0,0):0.001600
+(6,0,0,0,0,0):0.001600
+(7,0,0,0,0,0):0.001600
+(8,0,0,0,0,0):0.001600
+(9,0,0,0,0,0):0.001600
+(10,0,0,0,0,0):0.001600
+(11,0,0,0,0,0):0.001600
+(12,0,0,0,0,0):0.001600
+(13,0,0,0,0,0):0.001600
+(14,0,0,0,0,0):0.001600
+(15,0,0,0,0,0):0.001600
+(16,0,0,0,0,0):0.001600
+(17,0,0,0,0,0):0.001600
+(18,0,0,0,0,0):0.001600
+(19,0,0,0,0,0):0.001600
+(20,0,0,0,0,0):0.001600
+(21,0,0,0,0,0):0.001600
+(22,0,0,0,0,0):0.001600
+(23,0,0,0,0,0):0.001600
+(24,0,0,0,0,0):0.001600
+(0,1,0,0,0,0):0.001600
+(1,1,0,0,0,0):0.001600
+(2,1,0,0,0,0):0.001600
+(3,1,0,0,0,0):0.001600
+(4,1,0,0,0,0):0.001600
+(5,1,0,0,0,0):0.001600
+(6,1,0,0,0,0):0.001600
+(7,1,0,0,0,0):0.001600
+(8,1,0,0,0,0):0.001600
+(9,1,0,0,0,0):0.001600
+(10,1,0,0,0,0):0.001600
+(11,1,0,0,0,0):0.001600
+(12,1,0,0,0,0):0.001600
+(13,1,0,0,0,0):0.001600
+(14,1,0,0,0,0):0.001600
+(15,1,0,0,0,0):0.001600
+(16,1,0,0,0,0):0.001600
+(17,1,0,0,0,0):0.001600
+(18,1,0,0,0,0):0.001600
+(19,1,0,0,0,0):0.001600
+(20,1,0,0,0,0):0.001600
+(21,1,0,0,0,0):0.001600
+(22,1,0,0,0,0):0.001600
+(23,1,0,0,0,0):0.001600
+(24,1,0,0,0,0):0.001600
+(0,2,0,0,0,0):0.001600
+(1,2,0,0,0,0):0.001600
+(2,2,0,0,0,0):0.001600
+(3,2,0,0,0,0):0.001600
+(4,2,0,0,0,0):0.001600
+(5,2,0,0,0,0):0.001600
+(6,2,0,0,0,0):0.001600
+(7,2,0,0,0,0):0.001600
+(8,2,0,0,0,0):0.001600
+(9,2,0,0,0,0):0.001600
+(10,2,0,0,0,0):0.001600
+(11,2,0,0,0,0):0.001600
+(12,2,0,0,0,0):0.001600
+(13,2,0,0,0,0):0.001600
+(14,2,0,0,0,0):0.001600
+(15,2,0,0,0,0):0.001600
+(16,2,0,0,0,0):0.001600
+(17,2,0,0,0,0):0.001600
+(18,2,0,0,0,0):0.001600
+(19,2,0,0,0,0):0.001600
+(20,2,0,0,0,0):0.001600
+(21,2,0,0,0,0):0.001600
+(22,2,0,0,0,0):0.001600
+(23,2,0,0,0,0):0.001600
+(24,2,0,0,0,0):0.001600
+(0,3,0,0,0,0):0.001600
+(1,3,0,0,0,0):0.001600
+(2,3,0,0,0,0):0.001600
+(3,3,0,0,0,0):0.001600
+(4,3,0,0,0,0):0.001600
+(5,3,0,0,0,0):0.001600
+(6,3,0,0,0,0):0.001600
+(7,3,0,0,0,0):0.001600
+(8,3,0,0,0,0):0.001600
+(9,3,0,0,0,0):0.001600
+(10,3,0,0,0,0):0.001600
+(11,3,0,0,0,0):0.001600
+(12,3,0,0,0,0):0.001600
+(13,3,0,0,0,0):0.001600
+(14,3,0,0,0,0):0.001600
+(15,3,0,0,0,0):0.001600
+(16,3,0,0,0,0):0.001600
+(17,3,0,0,0,0):0.001600
+(18,3,0,0,0,0):0.001600
+(19,3,0,0,0,0):0.001600
+(20,3,0,0,0,0):0.001600
+(21,3,0,0,0,0):0.001600
+(22,3,0,0,0,0):0.001600
+(23,3,0,0,0,0):0.001600
+(24,3,0,0,0,0):0.001600
+(0,4,0,0,0,0):0.001600
+(1,4,0,0,0,0):0.001600
+(2,4,0,0,0,0):0.001600
+(3,4,0,0,0,0):0.001600
+(4,4,0,0,0,0):0.001600
+(5,4,0,0,0,0):0.001600
+(6,4,0,0,0,0):0.001600
+(7,4,0,0,0,0):0.001600
+(8,4,0,0,0,0):0.001600
+(9,4,0,0,0,0):0.001600
+(10,4,0,0,0,0):0.001600
+(11,4,0,0,0,0):0.001600
+(12,4,0,0,0,0):0.001600
+(13,4,0,0,0,0):0.001600
+(14,4,0,0,0,0):0.001600
+(15,4,0,0,0,0):0.001600
+(16,4,0,0,0,0):0.001600
+(17,4,0,0,0,0):0.001600
+(18,4,0,0,0,0):0.001600
+(19,4,0,0,0,0):0.001600
+(20,4,0,0,0,0):0.001600
+(21,4,0,0,0,0):0.001600
+(22,4,0,0,0,0):0.001600
+(23,4,0,0,0,0):0.001600
+(24,4,0,0,0,0):0.001600
+(0,5,0,0,0,0):0.001600
+(1,5,0,0,0,0):0.001600
+(2,5,0,0,0,0):0.001600
+(3,5,0,0,0,0):0.001600
+(4,5,0,0,0,0):0.001600
+(5,5,0,0,0,0):0.001600
+(6,5,0,0,0,0):0.001600
+(7,5,0,0,0,0):0.001600
+(8,5,0,0,0,0):0.001600
+(9,5,0,0,0,0):0.001600
+(10,5,0,0,0,0):0.001600
+(11,5,0,0,0,0):0.001600
+(12,5,0,0,0,0):0.001600
+(13,5,0,0,0,0):0.001600
+(14,5,0,0,0,0):0.001600
+(15,5,0,0,0,0):0.001600
+(16,5,0,0,0,0):0.001600
+(17,5,0,0,0,0):0.001600
+(18,5,0,0,0,0):0.001600
+(19,5,0,0,0,0):0.001600
+(20,5,0,0,0,0):0.001600
+(21,5,0,0,0,0):0.001600
+(22,5,0,0,0,0):0.001600
+(23,5,0,0,0,0):0.001600
+(24,5,0,0,0,0):0.001600
+(0,6,0,0,0,0):0.001600
+(1,6,0,0,0,0):0.001600
+(2,6,0,0,0,0):0.001600
+(3,6,0,0,0,0):0.001600
+(4,6,0,0,0,0):0.001600
+(5,6,0,0,0,0):0.001600
+(6,6,0,0,0,0):0.001600
+(7,6,0,0,0,0):0.001600
+(8,6,0,0,0,0):0.001600
+(9,6,0,0,0,0):0.001600
+(10,6,0,0,0,0):0.001600
+(11,6,0,0,0,0):0.001600
+(12,6,0,0,0,0):0.001600
+(13,6,0,0,0,0):0.001600
+(14,6,0,0,0,0):0.001600
+(15,6,0,0,0,0):0.001600
+(16,6,0,0,0,0):0.001600
+(17,6,0,0,0,0):0.001600
+(18,6,0,0,0,0):0.001600
+(19,6,0,0,0,0):0.001600
+(20,6,0,0,0,0):0.001600
+(21,6,0,0,0,0):0.001600
+(22,6,0,0,0,0):0.001600
+(23,6,0,0,0,0):0.001600
+(24,6,0,0,0,0):0.001600
+(0,7,0,0,0,0):0.001600
+(1,7,0,0,0,0):0.001600
+(2,7,0,0,0,0):0.001600
+(3,7,0,0,0,0):0.001600
+(4,7,0,0,0,0):0.001600
+(5,7,0,0,0,0):0.001600
+(6,7,0,0,0,0):0.001600
+(7,7,0,0,0,0):0.001600
+(8,7,0,0,0,0):0.001600
+(9,7,0,0,0,0):0.001600
+(10,7,0,0,0,0):0.001600
+(11,7,0,0,0,0):0.001600
+(12,7,0,0,0,0):0.001600
+(13,7,0,0,0,0):0.001600
+(14,7,0,0,0,0):0.001600
+(15,7,0,0,0,0):0.001600
+(16,7,0,0,0,0):0.001600
+(17,7,0,0,0,0):0.001600
+(18,7,0,0,0,0):0.001600
+(19,7,0,0,0,0):0.001600
+(20,7,0,0,0,0):0.001600
+(21,7,0,0,0,0):0.001600
+(22,7,0,0,0,0):0.001600
+(23,7,0,0,0,0):0.001600
+(24,7,0,0,0,0):0.001600
+(0,8,0,0,0,0):0.001600
+(1,8,0,0,0,0):0.001600
+(2,8,0,0,0,0):0.001600
+(3,8,0,0,0,0):0.001600
+(4,8,0,0,0,0):0.001600
+(5,8,0,0,0,0):0.001600
+(6,8,0,0,0,0):0.001600
+(7,8,0,0,0,0):0.001600
+(8,8,0,0,0,0):0.001600
+(9,8,0,0,0,0):0.001600
+(10,8,0,0,0,0):0.001600
+(11,8,0,0,0,0):0.001600
+(12,8,0,0,0,0):0.001600
+(13,8,0,0,0,0):0.001600
+(14,8,0,0,0,0):0.001600
+(15,8,0,0,0,0):0.001600
+(16,8,0,0,0,0):0.001600
+(17,8,0,0,0,0):0.001600
+(18,8,0,0,0,0):0.001600
+(19,8,0,0,0,0):0.001600
+(20,8,0,0,0,0):0.001600
+(21,8,0,0,0,0):0.001600
+(22,8,0,0,0,0):0.001600
+(23,8,0,0,0,0):0.001600
+(24,8,0,0,0,0):0.001600
+(0,9,0,0,0,0):0.001600
+(1,9,0,0,0,0):0.001600
+(2,9,0,0,0,0):0.001600
+(3,9,0,0,0,0):0.001600
+(4,9,0,0,0,0):0.001600
+(5,9,0,0,0,0):0.001600
+(6,9,0,0,0,0):0.001600
+(7,9,0,0,0,0):0.001600
+(8,9,0,0,0,0):0.001600
+(9,9,0,0,0,0):0.001600
+(10,9,0,0,0,0):0.001600
+(11,9,0,0,0,0):0.001600
+(12,9,0,0,0,0):0.001600
+(13,9,0,0,0,0):0.001600
+(14,9,0,0,0,0):0.001600
+(15,9,0,0,0,0):0.001600
+(16,9,0,0,0,0):0.001600
+(17,9,0,0,0,0):0.001600
+(18,9,0,0,0,0):0.001600
+(19,9,0,0,0,0):0.001600
+(20,9,0,0,0,0):0.001600
+(21,9,0,0,0,0):0.001600
+(22,9,0,0,0,0):0.001600
+(23,9,0,0,0,0):0.001600
+(24,9,0,0,0,0):0.001600
+(0,10,0,0,0,0):0.001600
+(1,10,0,0,0,0):0.001600
+(2,10,0,0,0,0):0.001600
+(3,10,0,0,0,0):0.001600
+(4,10,0,0,0,0):0.001600
+(5,10,0,0,0,0):0.001600
+(6,10,0,0,0,0):0.001600
+(7,10,0,0,0,0):0.001600
+(8,10,0,0,0,0):0.001600
+(9,10,0,0,0,0):0.001600
+(10,10,0,0,0,0):0.001600
+(11,10,0,0,0,0):0.001600
+(12,10,0,0,0,0):0.001600
+(13,10,0,0,0,0):0.001600
+(14,10,0,0,0,0):0.001600
+(15,10,0,0,0,0):0.001600
+(16,10,0,0,0,0):0.001600
+(17,10,0,0,0,0):0.001600
+(18,10,0,0,0,0):0.001600
+(19,10,0,0,0,0):0.001600
+(20,10,0,0,0,0):0.001600
+(21,10,0,0,0,0):0.001600
+(22,10,0,0,0,0):0.001600
+(23,10,0,0,0,0):0.001600
+(24,10,0,0,0,0):0.001600
+(0,11,0,0,0,0):0.001600
+(1,11,0,0,0,0):0.001600
+(2,11,0,0,0,0):0.001600
+(3,11,0,0,0,0):0.001600
+(4,11,0,0,0,0):0.001600
+(5,11,0,0,0,0):0.001600
+(6,11,0,0,0,0):0.001600
+(7,11,0,0,0,0):0.001600
+(8,11,0,0,0,0):0.001600
+(9,11,0,0,0,0):0.001600
+(10,11,0,0,0,0):0.001600
+(11,11,0,0,0,0):0.001600
+(12,11,0,0,0,0):0.001600
+(13,11,0,0,0,0):0.001600
+(14,11,0,0,0,0):0.001600
+(15,11,0,0,0,0):0.001600
+(16,11,0,0,0,0):0.001600
+(17,11,0,0,0,0):0.001600
+(18,11,0,0,0,0):0.001600
+(19,11,0,0,0,0):0.001600
+(20,11,0,0,0,0):0.001600
+(21,11,0,0,0,0):0.001600
+(22,11,0,0,0,0):0.001600
+(23,11,0,0,0,0):0.001600
+(24,11,0,0,0,0):0.001600
+(0,12,0,0,0,0):0.001600
+(1,12,0,0,0,0):0.001600
+(2,12,0,0,0,0):0.001600
+(3,12,0,0,0,0):0.001600
+(4,12,0,0,0,0):0.001600
+(5,12,0,0,0,0):0.001600
+(6,12,0,0,0,0):0.001600
+(7,12,0,0,0,0):0.001600
+(8,12,0,0,0,0):0.001600
+(9,12,0,0,0,0):0.001600
+(10,12,0,0,0,0):0.001600
+(11,12,0,0,0,0):0.001600
+(12,12,0,0,0,0):0.001600
+(13,12,0,0,0,0):0.001600
+(14,12,0,0,0,0):0.001600
+(15,12,0,0,0,0):0.001600
+(16,12,0,0,0,0):0.001600
+(17,12,0,0,0,0):0.001600
+(18,12,0,0,0,0):0.001600
+(19,12,0,0,0,0):0.001600
+(20,12,0,0,0,0):0.001600
+(21,12,0,0,0,0):0.001600
+(22,12,0,0,0,0):0.001600
+(23,12,0,0,0,0):0.001600
+(24,12,0,0,0,0):0.001600
+(0,13,0,0,0,0):0.001600
+(1,13,0,0,0,0):0.001600
+(2,13,0,0,0,0):0.001600
+(3,13,0,0,0,0):0.001600
+(4,13,0,0,0,0):0.001600
+(5,13,0,0,0,0):0.001600
+(6,13,0,0,0,0):0.001600
+(7,13,0,0,0,0):0.001600
+(8,13,0,0,0,0):0.001600
+(9,13,0,0,0,0):0.001600
+(10,13,0,0,0,0):0.001600
+(11,13,0,0,0,0):0.001600
+(12,13,0,0,0,0):0.001600
+(13,13,0,0,0,0):0.001600
+(14,13,0,0,0,0):0.001600
+(15,13,0,0,0,0):0.001600
+(16,13,0,0,0,0):0.001600
+(17,13,0,0,0,0):0.001600
+(18,13,0,0,0,0):0.001600
+(19,13,0,0,0,0):0.001600
+(20,13,0,0,0,0):0.001600
+(21,13,0,0,0,0):0.001600
+(22,13,0,0,0,0):0.001600
+(23,13,0,0,0,0):0.001600
+(24,13,0,0,0,0):0.001600
+(0,14,0,0,0,0):0.001600
+(1,14,0,0,0,0):0.001600
+(2,14,0,0,0,0):0.001600
+(3,14,0,0,0,0):0.001600
+(4,14,0,0,0,0):0.001600
+(5,14,0,0,0,0):0.001600
+(6,14,0,0,0,0):0.001600
+(7,14,0,0,0,0):0.001600
+(8,14,0,0,0,0):0.001600
+(9,14,0,0,0,0):0.001600
+(10,14,0,0,0,0):0.001600
+(11,14,0,0,0,0):0.001600
+(12,14,0,0,0,0):0.001600
+(13,14,0,0,0,0):0.001600
+(14,14,0,0,0,0):0.001600
+(15,14,0,0,0,0):0.001600
+(16,14,0,0,0,0):0.001600
+(17,14,0,0,0,0):0.001600
+(18,14,0,0,0,0):0.001600
+(19,14,0,0,0,0):0.001600
+(20,14,0,0,0,0):0.001600
+(21,14,0,0,0,0):0.001600
+(22,14,0,0,0,0):0.001600
+(23,14,0,0,0,0):0.001600
+(24,14,0,0,0,0):0.001600
+(0,15,0,0,0,0):0.001600
+(1,15,0,0,0,0):0.001600
+(2,15,0,0,0,0):0.001600
+(3,15,0,0,0,0):0.001600
+(4,15,0,0,0,0):0.001600
+(5,15,0,0,0,0):0.001600
+(6,15,0,0,0,0):0.001600
+(7,15,0,0,0,0):0.001600
+(8,15,0,0,0,0):0.001600
+(9,15,0,0,0,0):0.001600
+(10,15,0,0,0,0):0.001600
+(11,15,0,0,0,0):0.001600
+(12,15,0,0,0,0):0.001600
+(13,15,0,0,0,0):0.001600
+(14,15,0,0,0,0):0.001600
+(15,15,0,0,0,0):0.001600
+(16,15,0,0,0,0):0.001600
+(17,15,0,0,0,0):0.001600
+(18,15,0,0,0,0):0.001600
+(19,15,0,0,0,0):0.001600
+(20,15,0,0,0,0):0.001600
+(21,15,0,0,0,0):0.001600
+(22,15,0,0,0,0):0.001600
+(23,15,0,0,0,0):0.001600
+(24,15,0,0,0,0):0.001600
+(0,16,0,0,0,0):0.001600
+(1,16,0,0,0,0):0.001600
+(2,16,0,0,0,0):0.001600
+(3,16,0,0,0,0):0.001600
+(4,16,0,0,0,0):0.001600
+(5,16,0,0,0,0):0.001600
+(6,16,0,0,0,0):0.001600
+(7,16,0,0,0,0):0.001600
+(8,16,0,0,0,0):0.001600
+(9,16,0,0,0,0):0.001600
+(10,16,0,0,0,0):0.001600
+(11,16,0,0,0,0):0.001600
+(12,16,0,0,0,0):0.001600
+(13,16,0,0,0,0):0.001600
+(14,16,0,0,0,0):0.001600
+(15,16,0,0,0,0):0.001600
+(16,16,0,0,0,0):0.001600
+(17,16,0,0,0,0):0.001600
+(18,16,0,0,0,0):0.001600
+(19,16,0,0,0,0):0.001600
+(20,16,0,0,0,0):0.001600
+(21,16,0,0,0,0):0.001600
+(22,16,0,0,0,0):0.001600
+(23,16,0,0,0,0):0.001600
+(24,16,0,0,0,0):0.001600
+(0,17,0,0,0,0):0.001600
+(1,17,0,0,0,0):0.001600
+(2,17,0,0,0,0):0.001600
+(3,17,0,0,0,0):0.001600
+(4,17,0,0,0,0):0.001600
+(5,17,0,0,0,0):0.001600
+(6,17,0,0,0,0):0.001600
+(7,17,0,0,0,0):0.001600
+(8,17,0,0,0,0):0.001600
+(9,17,0,0,0,0):0.001600
+(10,17,0,0,0,0):0.001600
+(11,17,0,0,0,0):0.001600
+(12,17,0,0,0,0):0.001600
+(13,17,0,0,0,0):0.001600
+(14,17,0,0,0,0):0.001600
+(15,17,0,0,0,0):0.001600
+(16,17,0,0,0,0):0.001600
+(17,17,0,0,0,0):0.001600
+(18,17,0,0,0,0):0.001600
+(19,17,0,0,0,0):0.001600
+(20,17,0,0,0,0):0.001600
+(21,17,0,0,0,0):0.001600
+(22,17,0,0,0,0):0.001600
+(23,17,0,0,0,0):0.001600
+(24,17,0,0,0,0):0.001600
+(0,18,0,0,0,0):0.001600
+(1,18,0,0,0,0):0.001600
+(2,18,0,0,0,0):0.001600
+(3,18,0,0,0,0):0.001600
+(4,18,0,0,0,0):0.001600
+(5,18,0,0,0,0):0.001600
+(6,18,0,0,0,0):0.001600
+(7,18,0,0,0,0):0.001600
+(8,18,0,0,0,0):0.001600
+(9,18,0,0,0,0):0.001600
+(10,18,0,0,0,0):0.001600
+(11,18,0,0,0,0):0.001600
+(12,18,0,0,0,0):0.001600
+(13,18,0,0,0,0):0.001600
+(14,18,0,0,0,0):0.001600
+(15,18,0,0,0,0):0.001600
+(16,18,0,0,0,0):0.001600
+(17,18,0,0,0,0):0.001600
+(18,18,0,0,0,0):0.001600
+(19,18,0,0,0,0):0.001600
+(20,18,0,0,0,0):0.001600
+(21,18,0,0,0,0):0.001600
+(22,18,0,0,0,0):0.001600
+(23,18,0,0,0,0):0.001600
+(24,18,0,0,0,0):0.001600
+(0,19,0,0,0,0):0.001600
+(1,19,0,0,0,0):0.001600
+(2,19,0,0,0,0):0.001600
+(3,19,0,0,0,0):0.001600
+(4,19,0,0,0,0):0.001600
+(5,19,0,0,0,0):0.001600
+(6,19,0,0,0,0):0.001600
+(7,19,0,0,0,0):0.001600
+(8,19,0,0,0,0):0.001600
+(9,19,0,0,0,0):0.001600
+(10,19,0,0,0,0):0.001600
+(11,19,0,0,0,0):0.001600
+(12,19,0,0,0,0):0.001600
+(13,19,0,0,0,0):0.001600
+(14,19,0,0,0,0):0.001600
+(15,19,0,0,0,0):0.001600
+(16,19,0,0,0,0):0.001600
+(17,19,0,0,0,0):0.001600
+(18,19,0,0,0,0):0.001600
+(19,19,0,0,0,0):0.001600
+(20,19,0,0,0,0):0.001600
+(21,19,0,0,0,0):0.001600
+(22,19,0,0,0,0):0.001600
+(23,19,0,0,0,0):0.001600
+(24,19,0,0,0,0):0.001600
+(0,20,0,0,0,0):0.001600
+(1,20,0,0,0,0):0.001600
+(2,20,0,0,0,0):0.001600
+(3,20,0,0,0,0):0.001600
+(4,20,0,0,0,0):0.001600
+(5,20,0,0,0,0):0.001600
+(6,20,0,0,0,0):0.001600
+(7,20,0,0,0,0):0.001600
+(8,20,0,0,0,0):0.001600
+(9,20,0,0,0,0):0.001600
+(10,20,0,0,0,0):0.001600
+(11,20,0,0,0,0):0.001600
+(12,20,0,0,0,0):0.001600
+(13,20,0,0,0,0):0.001600
+(14,20,0,0,0,0):0.001600
+(15,20,0,0,0,0):0.001600
+(16,20,0,0,0,0):0.001600
+(17,20,0,0,0,0):0.001600
+(18,20,0,0,0,0):0.001600
+(19,20,0,0,0,0):0.001600
+(20,20,0,0,0,0):0.001600
+(21,20,0,0,0,0):0.001600
+(22,20,0,0,0,0):0.001600
+(23,20,0,0,0,0):0.001600
+(24,20,0,0,0,0):0.001600
+(0,21,0,0,0,0):0.001600
+(1,21,0,0,0,0):0.001600
+(2,21,0,0,0,0):0.001600
+(3,21,0,0,0,0):0.001600
+(4,21,0,0,0,0):0.001600
+(5,21,0,0,0,0):0.001600
+(6,21,0,0,0,0):0.001600
+(7,21,0,0,0,0):0.001600
+(8,21,0,0,0,0):0.001600
+(9,21,0,0,0,0):0.001600
+(10,21,0,0,0,0):0.001600
+(11,21,0,0,0,0):0.001600
+(12,21,0,0,0,0):0.001600
+(13,21,0,0,0,0):0.001600
+(14,21,0,0,0,0):0.001600
+(15,21,0,0,0,0):0.001600
+(16,21,0,0,0,0):0.001600
+(17,21,0,0,0,0):0.001600
+(18,21,0,0,0,0):0.001600
+(19,21,0,0,0,0):0.001600
+(20,21,0,0,0,0):0.001600
+(21,21,0,0,0,0):0.001600
+(22,21,0,0,0,0):0.001600
+(23,21,0,0,0,0):0.001600
+(24,21,0,0,0,0):0.001600
+(0,22,0,0,0,0):0.001600
+(1,22,0,0,0,0):0.001600
+(2,22,0,0,0,0):0.001600
+(3,22,0,0,0,0):0.001600
+(4,22,0,0,0,0):0.001600
+(5,22,0,0,0,0):0.001600
+(6,22,0,0,0,0):0.001600
+(7,22,0,0,0,0):0.001600
+(8,22,0,0,0,0):0.001600
+(9,22,0,0,0,0):0.001600
+(10,22,0,0,0,0):0.001600
+(11,22,0,0,0,0):0.001600
+(12,22,0,0,0,0):0.001600
+(13,22,0,0,0,0):0.001600
+(14,22,0,0,0,0):0.001600
+(15,22,0,0,0,0):0.001600
+(16,22,0,0,0,0):0.001600
+(17,22,0,0,0,0):0.001600
+(18,22,0,0,0,0):0.001600
+(19,22,0,0,0,0):0.001600
+(20,22,0,0,0,0):0.001600
+(21,22,0,0,0,0):0.001600
+(22,22,0,0,0,0):0.001600
+(23,22,0,0,0,0):0.001600
+(24,22,0,0,0,0):0.001600
+(0,23,0,0,0,0):0.001600
+(1,23,0,0,0,0):0.001600
+(2,23,0,0,0,0):0.001600
+(3,23,0,0,0,0):0.001600
+(4,23,0,0,0,0):0.001600
+(5,23,0,0,0,0):0.001600
+(6,23,0,0,0,0):0.001600
+(7,23,0,0,0,0):0.001600
+(8,23,0,0,0,0):0.001600
+(9,23,0,0,0,0):0.001600
+(10,23,0,0,0,0):0.001600
+(11,23,0,0,0,0):0.001600
+(12,23,0,0,0,0):0.001600
+(13,23,0,0,0,0):0.001600
+(14,23,0,0,0,0):0.001600
+(15,23,0,0,0,0):0.001600
+(16,23,0,0,0,0):0.001600
+(17,23,0,0,0,0):0.001600
+(18,23,0,0,0,0):0.001600
+(19,23,0,0,0,0):0.001600
+(20,23,0,0,0,0):0.001600
+(21,23,0,0,0,0):0.001600
+(22,23,0,0,0,0):0.001600
+(23,23,0,0,0,0):0.001600
+(24,23,0,0,0,0):0.001600
+(0,24,0,0,0,0):0.001600
+(1,24,0,0,0,0):0.001600
+(2,24,0,0,0,0):0.001600
+(3,24,0,0,0,0):0.001600
+(4,24,0,0,0,0):0.001600
+(5,24,0,0,0,0):0.001600
+(6,24,0,0,0,0):0.001600
+(7,24,0,0,0,0):0.001600
+(8,24,0,0,0,0):0.001600
+(9,24,0,0,0,0):0.001600
+(10,24,0,0,0,0):0.001600
+(11,24,0,0,0,0):0.001600
+(12,24,0,0,0,0):0.001600
+(13,24,0,0,0,0):0.001600
+(14,24,0,0,0,0):0.001600
+(15,24,0,0,0,0):0.001600
+(16,24,0,0,0,0):0.001600
+(17,24,0,0,0,0):0.001600
+(18,24,0,0,0,0):0.001600
+(19,24,0,0,0,0):0.001600
+(20,24,0,0,0,0):0.001600
+(21,24,0,0,0,0):0.001600
+(22,24,0,0,0,0):0.001600
+(23,24,0,0,0,0):0.001600
+(24,24,0,0,0,0):0.001600
+"
+    predefKernel = "25x25 Average Kernel"
+  }
+}
+module Histogram {
+  internal  {
+    frame = "389 165 88 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "721 343 398 354"
+        sizeHint = "398 354"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = Histogram
+    useMask = TRUE
+    xRange = "Image Min/Max"
+    maskMode = Weights
+    curveType = Line
+    curveStyle = 0
+    curveTitle = ""
+    updateMode = AutoUpdate
+    useStepFunction = FALSE
+    useBinSizeOneRepresentation = TRUE
+    useBackgroundValue = FALSE
+    backgroundValue = 0
+    binSize = 1
+  }
+}
+module SynchroView2D {
+  internal  {
+    frame = "253 165 120 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "7 54 804 400"
+        sizeHint = "804 400"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SynchroView2D
+    leftInventorInputOn = FALSE
+    rightInventorInputOn = FALSE
+    synchSlicing = TRUE
+    synchZooming = TRUE
+    synchTiming = TRUE
+    synchLUTs = FALSE
+    disconnectOnHide = TRUE
+    snapToCenter1 = FALSE
+    snapToCenter2 = FALSE
+    slice1 = 0
+    timepoint1 = 0
+    filterMode = FILTER_LINEAR
+    slice2 = 0
+    timepoint2 = 0
+    lut1w = 871.00006
+    lut1c = 250.80002
+    lut2w = 1011.0001
+    lut2c = 290.30002
+    annotationColor = "0.899999976158142 0.899999976158142 0.899999976158142"
+    borderOn = FALSE
+    drawCurrentPos = FALSE
+    showCurrentPos = FALSE
+    worldPosition = "78.2675628662109 -26.4422912597656 67.9996337890625"
+    background = "0 0 0"
+  }
+}
+module View2D {
+  internal  {
+    frame = "477 501 120 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "443 222 400 400"
+        sizeHint = "400 400"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = View2D2
+    inventorInputOn = TRUE
+    inventorOutputOn = FALSE
+    view2DExtensionsOn = TRUE
+    startSlice = 0
+    numSlices = 1
+    numXSlices = 1
+    sliceStep = 1
+    slab = 1
+    blendMode = BLEND_REPLACE
+    timePoint = 0
+    maxTimePoint = 0
+    filterMode = FILTER_LINEAR
+    standardKeys = TRUE
+    cineMode = CINE_Z
+    cineDirection = CINE_PINGPONG
+    cineRepeat = CINE_ONCE
+    cineSpeed = 0.1
+    snapToCenter = FALSE
+    zoomMode = VIEW2D_AUTO_ZOOM
+    unzoomOnImageChange = FALSE
+    sliceZoom = 1
+    sliceZoomSynced = 1
+    baseColor = "1 1 1"
+    margin = "2 2"
+    sliceOrigin = "0 0"
+    plane = "-0.999076068401337 0.0313568338751793 -0.0293896775692701 -81.0228805541992"
+    useShaders = TRUE
+    lutCenter = 349.60004
+    lutWidth = 1113.0001
+    lutUseTraceColors = FALSE
+    annotationOn = TRUE
+    annotationMode = ANNO_MODE_AUTO
+    annotationSizeMode = ANNO_SHOW_DETAILED
+    annotationCol = "0.899999976158142 0.899999976158142 0.899999976158142"
+    annotationFontSize = ANNO_SIZE_AUTO
+    annoCoords = Voxel
+    annoCTValue = AsIs
+    borderOn = FALSE
+    borderColor = "0.899999976158142 0.899999976158142 0.899999976158142"
+    valueHighPrecision = TRUE
+    maxPrecision = 4
+    enableSlicing = TRUE
+  }
+}
+module View2D {
+  internal  {
+    frame = "477 373 120 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "580 218 400 400"
+        sizeHint = "400 400"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = View2D1
+    inventorInputOn = TRUE
+    inventorOutputOn = FALSE
+    view2DExtensionsOn = TRUE
+    startSlice = 0
+    numSlices = 1
+    numXSlices = 1
+    sliceStep = 1
+    slab = 1
+    blendMode = BLEND_REPLACE
+    timePoint = 0
+    maxTimePoint = 0
+    filterMode = FILTER_LINEAR
+    standardKeys = TRUE
+    cineMode = CINE_Z
+    cineDirection = CINE_PINGPONG
+    cineRepeat = CINE_ONCE
+    cineSpeed = 0.1
+    snapToCenter = FALSE
+    zoomMode = VIEW2D_AUTO_ZOOM
+    unzoomOnImageChange = FALSE
+    sliceZoom = 1
+    sliceZoomSynced = 1
+    baseColor = "1 1 1"
+    margin = "2 2"
+    sliceOrigin = "0 0"
+    plane = "-0.999076068401337 0.0313568338751793 -0.0293896775692701 -81.0228805541992"
+    useShaders = TRUE
+    lutCenter = 77.68
+    lutWidth = 246.60002
+    lutUseTraceColors = FALSE
+    annotationOn = TRUE
+    annotationMode = ANNO_MODE_AUTO
+    annotationSizeMode = ANNO_SHOW_DETAILED
+    annotationCol = "0.899999976158142 0.899999976158142 0.899999976158142"
+    annotationFontSize = ANNO_SIZE_AUTO
+    annoCoords = Voxel
+    annoCTValue = AsIs
+    borderOn = FALSE
+    borderColor = "0.899999976158142 0.899999976158142 0.899999976158142"
+    valueHighPrecision = TRUE
+    maxPrecision = 4
+    enableSlicing = TRUE
+  }
+}
+module AddNoise {
+  internal  {
+    frame = "333 349 88 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "840 363 387 215"
+        sizeHint = "353 215"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = AddNoise
+    amplitude = 100
+    addInput = TRUE
+    randSeed = -1
+    noiseType = Uniform
+    mean = 0
+    sigma = 1
+    sigmaIn = 0
+    sigmaOut = 0
+    amplitude2 = 100
+    density = 0.050000001
+  }
+}
+module View2D {
+  internal  {
+    frame = "173 373 120 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "138 227 400 400"
+        sizeHint = "400 400"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = View2D
+    inventorInputOn = TRUE
+    inventorOutputOn = FALSE
+    view2DExtensionsOn = TRUE
+    startSlice = 0
+    numSlices = 1
+    numXSlices = 1
+    sliceStep = 1
+    slab = 1
+    blendMode = BLEND_REPLACE
+    timePoint = 0
+    maxTimePoint = 0
+    filterMode = FILTER_LINEAR
+    standardKeys = TRUE
+    cineMode = CINE_Z
+    cineDirection = CINE_PINGPONG
+    cineRepeat = CINE_ONCE
+    cineSpeed = 0.1
+    snapToCenter = FALSE
+    zoomMode = VIEW2D_AUTO_ZOOM
+    unzoomOnImageChange = FALSE
+    sliceZoom = 1
+    sliceZoomSynced = 1
+    baseColor = "1 1 1"
+    margin = "2 2"
+    sliceOrigin = "0 0"
+    plane = "-0.999076068401337 0.0313568338751793 -0.0293896775692701 -81.0228805541992"
+    useShaders = TRUE
+    lutCenter = -52.900002
+    lutWidth = 821.40002
+    lutUseTraceColors = FALSE
+    annotationOn = TRUE
+    annotationMode = ANNO_MODE_AUTO
+    annotationSizeMode = ANNO_SHOW_DETAILED
+    annotationCol = "0.899999976158142 0.899999976158142 0.899999976158142"
+    annotationFontSize = ANNO_SIZE_AUTO
+    annoCoords = Voxel
+    annoCTValue = AsIs
+    borderOn = FALSE
+    borderColor = "0.899999976158142 0.899999976158142 0.899999976158142"
+    valueHighPrecision = TRUE
+    maxPrecision = 4
+    enableSlicing = TRUE
+  }
+}
+module Sobel3D {
+  internal  {
+    frame = "393 445 80 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "100 321 308 354"
+        sizeHint = "308 354"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = Sobel3D
+    borderHandling = PadSrcClamp
+    fillValue = 0
+    referenceExtentMode = Overlap
+    intervalMinOfFilteredVoxels = 30
+    intervalMaxOfFilteredVoxels = 50
+    useIntervalOfFilteredVoxels = FALSE
+    autoCalcMinMax = TRUE
+    outputMin = 1
+    outputMax = 0
+    useMinMax = FALSE
+    edgeThresholdMinimum = 30
+    edgeThresholdMaximum = 60
+    detectedEdgeValue = 50
+    detectedNonEdgeValue = 0
+    useVoxelSize = TRUE
+    filterMode = "Gradient Strength"
+  }
+}
+module LoG {
+  internal  {
+    frame = "309 445 56 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "628 300 288 264"
+        sizeHint = "288 264"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = LoG
+    borderHandling = PadSrcClamp
+    fillValue = 0
+    referenceExtentMode = Overlap
+    kernelExt = 2
+    sigma = 1.4
+    intervalMinOfFilteredVoxels = 0
+    intervalMaxOfFilteredVoxels = 1024
+    useIntervalOfFilteredVoxels = FALSE
+    normalize = FALSE
+  }
+}
+module LocalImage {
+  internal  {
+    frame = "337 533 96 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "431 305 424 235"
+        sizeHint = "424 235"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = LocalImage
+    name = $(DemoDataPath)/BrainMultiModal/ProbandT1.dcm
+    autoLoad = TRUE
+  }
+}
+connections  {
+  SoRenderArea1.children = SoDiagram2D1.self
+  SoDiagram2D1.inCurveList = Histogram1.outputHistogramCurve
+  Histogram1.input0 = Convolution.output0
+  SoRenderArea.children = SoDiagram2D.self
+  SoDiagram2D.inCurveList = Histogram.outputHistogramCurve
+  Convolution.input0 = AddNoise.output0
+  Histogram.input0 = AddNoise.output0
+  SynchroView2D.inImage1 = AddNoise.output0
+  SynchroView2D.inImage2 = Convolution.output0
+  View2D2.inImage = LocalImage.outImage
+  View2D1.inImage = Sobel3D.output0
+  AddNoise.input0 = LocalImage.outImage
+  View2D.inImage = LoG.output0
+  Sobel3D.input0 = LocalImage.outImage
+  LoG.input0 = LocalImage.outImage
+}
+networkModel = ""

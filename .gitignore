@@ -1,0 +1,25 @@
+*.zip
+*.tar.gz
+*.pdf
+*.jpg
+*.png
+*.bmp
+*.tif
+*.wem
+
+# Matlab
+*.mat
+*.asv
+
+20120625_TUM_Institut_f_r_Informatik_Lehrveranstaltung.dat
+__MACOSX/
+
+############
+## Windows
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
